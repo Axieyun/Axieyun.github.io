@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>邪云</title>
+  
+  <subtitle>无尘</subtitle>
+  <link href="https://axieyun.top/atom.xml" rel="self"/>
+  
+  <link href="https://axieyun.top/"/>
+  <updated>2021-06-25T03:50:05.349Z</updated>
+  <id>https://axieyun.top/</id>
+  
+  <author>
+    <name>Axieyun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>力扣3、无重复字符的最长子串</title>
+    <link href="https://axieyun.top/posts/7dfb.html"/>
+    <id>https://axieyun.top/posts/7dfb.html</id>
+    <published>2021-06-25T03:35:53.000Z</published>
+    <updated>2021-06-25T03:50:05.349Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;思路&quot;&gt;&lt;a href=&quot;#思路&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>广义表转二叉树</title>
+    <link href="https://axieyun.top/posts/dc75.html"/>
+    <id>https://axieyun.top/posts/dc75.html</id>
+    <published>2021-06-24T17:21:45.000Z</published>
+    <updated>2021-06-24T17:26:32.179Z</updated>
+    
+    
+    
+    
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的学习路线与方向</title>
+    <link href="https://axieyun.top/posts/daca.html"/>
+    <id>https://axieyun.top/posts/daca.html</id>
+    <published>2021-06-23T08:59:05.000Z</published>
+    <updated>2021-06-23T09:06:34.521Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;看图&quot;&gt;&lt;a href=&quot;#看图&quot; class=&quot;headerlink&quot; title=&quot;看图&quot;&gt;&lt;/a&gt;看图&lt;/h4&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="学习目标" scheme="https://axieyun.top/tags/%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣2、两数相加</title>
+    <link href="https://axieyun.top/posts/96c3.html"/>
+    <id>https://axieyun.top/posts/96c3.html</id>
+    <published>2021-06-23T08:31:40.000Z</published>
+    <updated>2021-06-23T08:57:17.218Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h4&gt;&lt;p&gt;给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣1、两数之和</title>
+    <link href="https://axieyun.top/posts/ca7f.html"/>
+    <id>https://axieyun.top/posts/ca7f.html</id>
+    <published>2021-06-21T16:24:07.000Z</published>
+    <updated>2021-06-23T08:57:34.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言开源uthash哈希表</title>
+    <link href="https://axieyun.top/posts/a878.html"/>
+    <id>https://axieyun.top/posts/a878.html</id>
+    <published>2021-06-21T16:03:59.000Z</published>
+    <updated>2021-06-21T16:36:03.743Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;头文件&quot;&gt;&lt;a href=&quot;#头文件&quot; class=&quot;headerlink&quot; title=&quot;头文件&quot;&gt;&lt;/a&gt;头文件&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;#include &amp;lt;uthash.h&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;结构定义&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c语言开源代码" scheme="https://axieyun.top/tags/c%E8%AF%AD%E8%A8%80%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树与二叉树</title>
+    <link href="https://axieyun.top/posts/4a28.html"/>
+    <id>https://axieyun.top/posts/4a28.html</id>
+    <published>2021-06-21T12:11:44.000Z</published>
+    <updated>2021-06-24T17:25:43.152Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;树&quot;&gt;&lt;a href=&quot;#树&quot; class=&quot;headerlink&quot; title=&quot;树&quot;&gt;&lt;/a&gt;树&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双向链表</title>
+    <link href="https://axieyun.top/posts/14e1.html"/>
+    <id>https://axieyun.top/posts/14e1.html</id>
+    <published>2021-06-16T16:12:21.000Z</published>
+    <updated>2021-06-16T16:17:16.092Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;结构定义&quot;&gt;&lt;a href=&quot;#结构定义&quot; class=&quot;headerlink&quot; title=&quot;结构定义&quot;&gt;&lt;/a&gt;结构定义&lt;/h4&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哈希表</title>
+    <link href="https://axieyun.top/posts/41d3.html"/>
+    <id>https://axieyun.top/posts/41d3.html</id>
+    <published>2021-06-16T02:48:13.000Z</published>
+    <updated>2021-06-19T08:46:34.554Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;哈希表-散列表&quot;&gt;&lt;a href=&quot;#哈希表-散列表&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="查找算法" scheme="https://axieyun.top/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二分查找</title>
+    <link href="https://axieyun.top/posts/a77d.html"/>
+    <id>https://axieyun.top/posts/a77d.html</id>
+    <published>2021-06-15T17:14:18.000Z</published>
+    <updated>2021-06-15T17:19:36.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;普通二分查找&quot;&gt;&lt;a href=&quot;#普通二分查找&quot; class=&quot;headerlink&quot; title=&quot;普通二分查找&quot;&gt;&lt;/a&gt;普通二分查找&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;只能在有序数组查找&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="查找算法" scheme="https://axieyun.top/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三分查找</title>
+    <link href="https://axieyun.top/posts/f66.html"/>
+    <id>https://axieyun.top/posts/f66.html</id>
+    <published>2021-06-15T15:28:09.000Z</published>
+    <updated>2021-06-19T09:26:26.550Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;用处&quot;&gt;&lt;a href=&quot;#用处&quot; class=&quot;headerlink&quot; title=&quot;用处&quot;&gt;&lt;/a&gt;用处&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;用于函数在单调区间查找极值点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;函数&quot;&gt;&lt;a href=&quot;#函数&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="查找算法" scheme="https://axieyun.top/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冒泡排序</title>
+    <link href="https://axieyun.top/posts/52f6.html"/>
+    <id>https://axieyun.top/posts/52f6.html</id>
+    <published>2021-06-15T11:35:05.000Z</published>
+    <updated>2021-06-20T08:08:46.298Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;思路实属简单不需要讲&quot;&gt;&lt;a href=&quot;#思路实属简单不需要讲&quot; class=&quot;headerlink&quot; title=&quot;思路实属简单不需要讲&quot;&gt;&lt;/a&gt;思路实属简单不需要讲&lt;/h5&gt;&lt;h4 id=&quot;代码演示（未优化的）&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="排序算法" scheme="https://axieyun.top/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速排序</title>
+    <link href="https://axieyun.top/posts/2c2a.html"/>
+    <id>https://axieyun.top/posts/2c2a.html</id>
+    <published>2021-06-15T11:34:38.000Z</published>
+    <updated>2021-06-15T17:19:36.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;思路&quot;&gt;&lt;a href=&quot;#思路&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="排序算法" scheme="https://axieyun.top/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>选择排序</title>
+    <link href="https://axieyun.top/posts/c803.html"/>
+    <id>https://axieyun.top/posts/c803.html</id>
+    <published>2021-06-15T11:34:21.000Z</published>
+    <updated>2021-06-19T08:56:27.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;主要函数&quot;&gt;&lt;a href=&quot;#主要函数&quot; class=&quot;headerlink&quot; title=&quot;主要函数&quot;&gt;&lt;/a&gt;主要函数&lt;/h4&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="排序算法" scheme="https://axieyun.top/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>归并排序</title>
+    <link href="https://axieyun.top/posts/f8df.html"/>
+    <id>https://axieyun.top/posts/f8df.html</id>
+    <published>2021-06-15T10:46:37.000Z</published>
+    <updated>2021-06-15T17:19:36.553Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;代码演示&quot;&gt;&lt;a href=&quot;#代码演示&quot; class=&quot;headerlink&quot; title=&quot;代码演示&quot;&gt;&lt;/a&gt;代码演示&lt;/h4&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="排序算法" scheme="https://axieyun.top/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>插入排序</title>
+    <link href="https://axieyun.top/posts/c40e.html"/>
+    <id>https://axieyun.top/posts/c40e.html</id>
+    <published>2021-06-14T12:58:49.000Z</published>
+    <updated>2021-06-14T13:03:54.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;交换实现&quot;&gt;&lt;a href=&quot;#交换实现&quot; class=&quot;headerlink&quot; title=&quot;交换实现&quot;&gt;&lt;/a&gt;交换实现&lt;/h4&gt;&lt;h5 id=&quot;代码演示1&quot;&gt;&lt;a href=&quot;#代码演示1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="排序算法" scheme="https://axieyun.top/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最快的求一个数根号的倒数的方法</title>
+    <link href="https://axieyun.top/posts/4860.html"/>
+    <id>https://axieyun.top/posts/4860.html</id>
+    <published>2021-06-14T12:42:45.000Z</published>
+    <updated>2021-06-14T12:46:13.971Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;代码演示&quot;&gt;&lt;a href=&quot;#代码演示&quot; class=&quot;headerlink&quot; title=&quot;代码演示&quot;&gt;&lt;/a&gt;代码演示&lt;/h4&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c语言的奇淫技巧" scheme="https://axieyun.top/tags/c%E8%AF%AD%E8%A8%80%E7%9A%84%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>森林与并查集</title>
+    <link href="https://axieyun.top/posts/cc88.html"/>
+    <id>https://axieyun.top/posts/cc88.html</id>
+    <published>2021-06-11T10:18:21.000Z</published>
+    <updated>2021-06-11T10:29:05.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;并查集&quot;&gt;&lt;a href=&quot;#并查集&quot; class=&quot;headerlink&quot; title=&quot;并查集&quot;&gt;&lt;/a&gt;并查集&lt;/h3&gt;&lt;h4 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="开课吧笔记" scheme="https://axieyun.top/tags/%E5%BC%80%E8%AF%BE%E5%90%A7%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>约瑟夫环</title>
+    <link href="https://axieyun.top/posts/cc7c.html"/>
+    <id>https://axieyun.top/posts/cc7c.html</id>
+    <published>2021-06-11T09:00:09.000Z</published>
+    <updated>2021-06-11T09:45:45.907Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h4&gt;&lt;p&gt;计算理工学院有 N&lt;em&gt;N&lt;/em&gt; 个同学，围成了一个圆圈，每人被顺序地编了一个序号（分别为 1,2,3…</summary>
+        
+      
+    
+    
+    
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>24两两交换链表中的节点</title>
+    <link href="https://axieyun.top/posts/7469.html"/>
+    <id>https://axieyun.top/posts/7469.html</id>
+    <published>2021-06-10T15:27:05.000Z</published>
+    <updated>2021-06-13T05:50:16.562Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+</feed>
