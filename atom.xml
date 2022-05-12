@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>邪云</title>
+  
+  <subtitle>无尘</subtitle>
+  <link href="https://axieyun.top/atom.xml" rel="self"/>
+  
+  <link href="https://axieyun.top/"/>
+  <updated>2022-05-12T12:20:05.425Z</updated>
+  <id>https://axieyun.top/</id>
+  
+  <author>
+    <name>Axieyun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>灰色系统</title>
+    <link href="https://axieyun.top/posts/5f9d.html"/>
+    <id>https://axieyun.top/posts/5f9d.html</id>
+    <published>2022-05-12T12:19:56.000Z</published>
+    <updated>2022-05-12T12:20:05.425Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux之chmod</title>
+    <link href="https://axieyun.top/posts/458a.html"/>
+    <id>https://axieyun.top/posts/458a.html</id>
+    <published>2022-03-28T09:36:55.000Z</published>
+    <updated>2022-05-12T12:20:05.424Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;chmod&quot;&gt;&lt;a href=&quot;#chmod&quot; class=&quot;headerlink&quot; title=&quot;chmod&quot;&gt;&lt;/a&gt;chmod&lt;/h3&gt;&lt;pre class=&quot; language-shell&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matlab之struct数组排序</title>
+    <link href="https://axieyun.top/posts/1899.html"/>
+    <id>https://axieyun.top/posts/1899.html</id>
+    <published>2022-03-25T14:04:50.000Z</published>
+    <updated>2022-05-12T09:02:38.512Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;分配内存&quot;&gt;&lt;a href=&quot;#分配内存&quot; class=&quot;headerlink&quot; title=&quot;分配内存&quot;&gt;&lt;/a&gt;分配内存&lt;/h3&gt;&lt;pre class=&quot; language-matlab&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="matlab" scheme="https://axieyun.top/tags/matlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次在多版本python的系统中指定python版本</title>
+    <link href="https://axieyun.top/posts/8122.html"/>
+    <id>https://axieyun.top/posts/8122.html</id>
+    <published>2022-03-16T13:09:07.000Z</published>
+    <updated>2022-03-16T13:22:02.209Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;em&gt;在编译cocos2d-x-3.17.2需要2.7版本的python，电脑同时包含多个python版本，我们需要指定python本版来进行编译。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;因为在电脑中，会根据python的环境变量出现顺序执行&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;stro</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日志" scheme="https://axieyun.top/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux的apt命令</title>
+    <link href="https://axieyun.top/posts/19be.html"/>
+    <id>https://axieyun.top/posts/19be.html</id>
+    <published>2022-03-13T11:27:31.000Z</published>
+    <updated>2022-03-13T11:56:37.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;apt与apt-get之间的区别&quot;&gt;&lt;a href=&quot;#apt与apt-get之间的区别&quot; class=&quot;headerlink&quot; title=&quot;apt与apt-get之间的区别&quot;&gt;&lt;/a&gt;apt与apt-get之间的区别&lt;/h3&gt;&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux的apt源配置</title>
+    <link href="https://axieyun.top/posts/b2a1.html"/>
+    <id>https://axieyun.top/posts/b2a1.html</id>
+    <published>2022-03-13T09:22:45.000Z</published>
+    <updated>2022-03-13T11:26:25.552Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;查看源类型&quot;&gt;&lt;a href=&quot;#查看源类型&quot; class=&quot;headerlink&quot; title=&quot;查看源类型&quot;&gt;&lt;/a&gt;查看源类型&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;命令&lt;/p&gt;
+&lt;pre class=&quot; language-bash&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux内核源码下载</title>
+    <link href="https://axieyun.top/posts/7e3f.html"/>
+    <id>https://axieyun.top/posts/7e3f.html</id>
+    <published>2022-03-13T09:05:14.000Z</published>
+    <updated>2022-03-13T09:32:37.048Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;1、查看内核版本&quot;&gt;&lt;a href=&quot;#1、查看内核版本&quot; class=&quot;headerlink&quot; title=&quot;1、查看内核版本&quot;&gt;&lt;/a&gt;1、查看内核版本&lt;/h4&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>zsh插件</title>
+    <link href="https://axieyun.top/posts/8569.html"/>
+    <id>https://axieyun.top/posts/8569.html</id>
+    <published>2022-03-13T08:49:27.000Z</published>
+    <updated>2022-04-05T06:55:48.387Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;Zsh命令自动补全插件-zsh-autosuggestions&quot;&gt;&lt;a href=&quot;#Zsh命令自动补全插件-zsh-autosuggestions&quot; class=&quot;headerlink&quot; title=&quot;Zsh命令自动补全插件</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ANSIC标准的预定义宏</title>
+    <link href="https://axieyun.top/posts/6e49.html"/>
+    <id>https://axieyun.top/posts/6e49.html</id>
+    <published>2022-03-12T05:07:27.000Z</published>
+    <updated>2022-03-13T09:29:13.696Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;
+
+ANSI  C 有几个标准的预定义宏，为：
+
+&lt;span class=&quot;token constant&quot;&gt;__FILE__&lt;/span&gt; ： 当前源代码的文件名。
+
+&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="C" scheme="https://axieyun.top/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python网络编码问题</title>
+    <link href="https://axieyun.top/posts/6834.html"/>
+    <id>https://axieyun.top/posts/6834.html</id>
+    <published>2022-03-11T08:23:07.000Z</published>
+    <updated>2022-03-13T09:29:13.707Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;pre class=&quot; language-tex&quot;&gt;&lt;code class=&quot;language-tex&quot;&gt;
+最近在win 和</summary>
+        
+      
+    
+    
+    
+    
+    <category term="网络编程" scheme="https://axieyun.top/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="python" scheme="https://axieyun.top/tags/python/"/>
+    
+    <category term="编码" scheme="https://axieyun.top/tags/%E7%BC%96%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次DNS错误异常，导致浏览器使用不了网络</title>
+    <link href="https://axieyun.top/posts/9815.html"/>
+    <id>https://axieyun.top/posts/9815.html</id>
+    <published>2022-03-08T12:32:56.000Z</published>
+    <updated>2022-03-08T12:45:54.482Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-tex&quot;&gt;&lt;code class=&quot;language-tex&quot;&gt;2022年3月8日
+
+下午6点上完毛概课，出去吃饭回来发现，电脑DNS异常，导致电脑浏览器网页打不开，具体原因未知。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日志" scheme="https://axieyun.top/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>链式前向星</title>
+    <link href="https://axieyun.top/posts/c791.html"/>
+    <id>https://axieyun.top/posts/c791.html</id>
+    <published>2022-03-02T09:39:51.000Z</published>
+    <updated>2022-04-03T03:23:34.826Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot; title=&quot;实现&quot;&gt;&lt;/a&gt;实现&lt;/h3&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;
+&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+    <category term="图论" scheme="https://axieyun.top/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣167、两数之和II-输入有序数组</title>
+    <link href="https://axieyun.top/posts/1b16.html"/>
+    <id>https://axieyun.top/posts/1b16.html</id>
+    <published>2022-03-02T05:53:06.000Z</published>
+    <updated>2022-03-02T06:15:46.751Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个下标从 1 开始的整数数组&amp;nbsp;numbers ，该数组已按 非递减顺序排列&amp;nbsp;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="二分查找" scheme="https://axieyun.top/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
+    
+    <category term="双指针" scheme="https://axieyun.top/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣540、有序数组中的单一元素</title>
+    <link href="https://axieyun.top/posts/df39.html"/>
+    <id>https://axieyun.top/posts/df39.html</id>
+    <published>2022-03-01T08:19:49.000Z</published>
+    <updated>2022-03-01T08:41:28.027Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="二分查找" scheme="https://axieyun.top/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣139、单词拆分</title>
+    <link href="https://axieyun.top/posts/a8ca.html"/>
+    <id>https://axieyun.top/posts/a8ca.html</id>
+    <published>2022-02-28T14:25:21.000Z</published>
+    <updated>2022-03-01T08:43:06.362Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s</summary>
+        
+      
+    
+    
+    
+    
+    <category term="dfs" scheme="https://axieyun.top/tags/dfs/"/>
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣189、轮转数组</title>
+    <link href="https://axieyun.top/posts/fffc.html"/>
+    <id>https://axieyun.top/posts/fffc.html</id>
+    <published>2022-02-28T12:30:20.000Z</published>
+    <updated>2022-03-01T08:46:32.086Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个数组，将数组中的元素向右轮转</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣6011、完成比赛的最少时间</title>
+    <link href="https://axieyun.top/posts/7a1d.html"/>
+    <id>https://axieyun.top/posts/7a1d.html</id>
+    <published>2022-02-27T07:04:14.000Z</published>
+    <updated>2022-02-27T07:18:39.158Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个下标从 0&amp;nbsp;开始的二维整数数组&amp;nbsp;tires&amp;nbsp;，其中&amp;nbsp;tires[i] = [fi,</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="完全背包" scheme="https://axieyun.top/tags/%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85/"/>
+    
+    <category term="动态规划" scheme="https://axieyun.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣6009、使两字符串互为字母异位词的最少步骤数</title>
+    <link href="https://axieyun.top/posts/e097.html"/>
+    <id>https://axieyun.top/posts/e097.html</id>
+    <published>2022-02-27T04:51:26.000Z</published>
+    <updated>2022-03-01T08:48:32.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;em&gt;早上没睡醒，题目没看清，看出构造两个字符串每个位置的字符都互不相同，啊啊啊，我好恨啊&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你两个字符串 s</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣6010、完成旅途的最少时间</title>
+    <link href="https://axieyun.top/posts/6ec2.html"/>
+    <id>https://axieyun.top/posts/6ec2.html</id>
+    <published>2022-02-27T04:32:08.000Z</published>
+    <updated>2022-02-27T07:18:39.160Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个数组 time ，其中 time[i] 表示第 i 辆公交车完成 一趟旅途 所需要花费的时间。&lt;/p&gt;
+&lt;p&gt;每辆公交车可以 连续</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣2182、构造限制重复的字符串</title>
+    <link href="https://axieyun.top/posts/7c7a.html"/>
+    <id>https://axieyun.top/posts/7c7a.html</id>
+    <published>2022-02-26T09:02:50.000Z</published>
+    <updated>2022-02-26T09:24:01.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个字符串 s 和一个整数 repeatLimit ，用 s 中的字符构造一个新字符串 repeatLimitedString</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+</feed>
