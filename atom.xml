@@ -6,7 +6,7 @@
   <link href="https://axieyun.top/atom.xml" rel="self"/>
   
   <link href="https://axieyun.top/"/>
-  <updated>2022-05-12T13:53:07.803Z</updated>
+  <updated>2022-05-24T11:21:19.508Z</updated>
   <id>https://axieyun.top/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高阶线性微分方程组matlab求解</title>
+    <link href="https://axieyun.top/posts/a1b6.html"/>
+    <id>https://axieyun.top/posts/a1b6.html</id>
+    <published>2022-05-24T11:18:39.000Z</published>
+    <updated>2022-05-24T11:21:19.508Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>矩阵方面求协方差矩阵</title>
+    <link href="https://axieyun.top/posts/fbea.html"/>
+    <id>https://axieyun.top/posts/fbea.html</id>
+    <published>2022-05-21T10:01:17.000Z</published>
+    <updated>2022-05-21T10:13:53.760Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>灰色系统</title>
@@ -453,53 +495,6 @@ ANSI  C 有几个标准的预定义宏，为：
         
     <summary type="html">&lt;p&gt;&lt;em&gt;早上没睡醒，题目没看清，看出构造两个字符串每个位置的字符都互不相同，啊啊啊，我好恨啊&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你两个字符串 s</summary>
-        
-      
-    
-    
-    
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>力扣6010、完成旅途的最少时间</title>
-    <link href="https://axieyun.top/posts/6ec2.html"/>
-    <id>https://axieyun.top/posts/6ec2.html</id>
-    <published>2022-02-27T04:32:08.000Z</published>
-    <updated>2022-02-27T07:18:39.160Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个数组 time ，其中 time[i] 表示第 i 辆公交车完成 一趟旅途 所需要花费的时间。&lt;/p&gt;
-&lt;p&gt;每辆公交车可以 连续</summary>
-        
-      
-    
-    
-    
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>力扣2182、构造限制重复的字符串</title>
-    <link href="https://axieyun.top/posts/7c7a.html"/>
-    <id>https://axieyun.top/posts/7c7a.html</id>
-    <published>2022-02-26T09:02:50.000Z</published>
-    <updated>2022-02-26T09:24:01.702Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个字符串 s 和一个整数 repeatLimit ，用 s 中的字符构造一个新字符串 repeatLimitedString</summary>
         
       
     
