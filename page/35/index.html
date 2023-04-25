@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,30 +377,29 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/a878.html">
+                    <a href="/posts/d41f.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="C语言开源uthash哈希表">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/3.jpg" class="responsive-img" alt="力扣58、最后一个单词的长度">
                             
-                            <span class="card-title">C语言开源uthash哈希表</span>
+                            <span class="card-title">力扣58、最后一个单词的长度</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                头文件
-#include &lt;uthash.h&gt;
-
-结构定义typedef struct Hash_Table {
-    int key; //内部标识；/* 我们将使用这个字段作为键 */
-    int val; //字符名
+                                思路从后往前遍历，找到第一个不是空格的字符，再从当前字符遍历整个单词
+代码演示class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        int r = s.s
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-23
                             </span>
                             <span class="publish-author">
                                 
@@ -414,8 +413,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/c%E8%AF%AD%E8%A8%80%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/">
-                            <span class="chip bg-color">c语言开源代码</span>
+                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
+                            <span class="chip bg-color">力扣题解</span>
                         </a>
                         
                     </div>
@@ -427,36 +426,29 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/4a28.html">
+                    <a href="/posts/6c63.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/1.jpg" class="responsive-img" alt="树与二叉树">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/5.jpg" class="responsive-img" alt="力扣53、最大子序和">
                             
-                            <span class="card-title">树与二叉树</span>
+                            <span class="card-title">力扣53、最大子序和</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                树
-
-非线性结构
-与现实的树倒过来，自上而下
-不能向下伸展的节点叫叶子节点
-第一个节点叫头节点也叫（全集）
-树由边与节点组成
-节点：代表集合
-边：代表关系
-
-树形结构和栈方便解决具有完全包含关系的问题树的性质树的深度
-从根节点向下走的最长路
+                                思路定义now为以i结尾的最大子序和，now初始化为0；
+对于一个数，要么本身最大，要么加上前面的子序列使自己更大，每遍历一个数，更新一下now与ans。
+代码演示class Solution {
+public:
+    int maxSu
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-23
                             </span>
                             <span class="publish-author">
                                 
@@ -470,8 +462,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
+                            <span class="chip bg-color">力扣题解</span>
                         </a>
                         
                     </div>
@@ -483,29 +475,27 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/14e1.html">
+                    <a href="/posts/f58c.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="双向链表">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/9.jpg" class="responsive-img" alt="力扣38、外观数列">
                             
-                            <span class="card-title">双向链表</span>
+                            <span class="card-title">力扣38、外观数列</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                结构定义//结构定义
-typedef struct Node { //节点定义 
-    int val;
-    struct Node *next; // 后驱指针 -> 
-    struct Node *per;  //前驱指针 &
+                                代码char * countAndSay(int n){
+    char *str = (char *)malloc(sizeof(char *) * 4000);
+    char *tp = (char *)malloc(sizeof
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-23
                             </span>
                             <span class="publish-author">
                                 
@@ -519,8 +509,8 @@ typedef struct Node { //节点定义
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
+                            <span class="chip bg-color">力扣题解</span>
                         </a>
                         
                     </div>
@@ -532,31 +522,25 @@ typedef struct Node { //节点定义
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/41d3.html">
+                    <a href="/posts/f495.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="哈希表">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/14.jpg" class="responsive-img" alt="奶牛晒太阳">
                             
-                            <span class="card-title">哈希表</span>
+                            <span class="card-title">奶牛晒太阳</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                哈希表|散列表
-将任意类型的值映射为整形值（下标）
-任意——&gt;哈希函数——&gt;整型
-哈希表=哈希函数+冲突处理方法
-冲突处理方法：开放定值法、再哈希|散列、拉链法、建立公共溢出区
-开放定值法：
-再哈希：使用多个哈希函数建立哈希表 
+                                题目描述 有 C 头奶牛去晒太阳，每头奶牛各自能够忍受的阳光强度有一个最小值和一个最大值，太大就晒伤了，太小奶牛没感觉。而刚开始的阳光的强度非常大，奶牛都承受不住，奶牛得涂抹防晒霜，防晒霜的作用是让阳光照在身上的阳光强度固定为某个值。那么为
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-21
                             </span>
                             <span class="publish-author">
                                 
@@ -570,8 +554,8 @@ typedef struct Node { //节点定义
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">查找算法</span>
+                        <a href="/tags/%E8%B4%AA%E5%BF%83%E9%97%AE%E9%A2%98/">
+                            <span class="chip bg-color">贪心问题</span>
                         </a>
                         
                     </div>
@@ -583,31 +567,36 @@ typedef struct Node { //节点定义
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/a77d.html">
+                    <a href="/posts/9420.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/19.jpg" class="responsive-img" alt="二分查找">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/14.jpg" class="responsive-img" alt="STL-deque">
                             
-                            <span class="card-title">二分查找</span>
+                            <span class="card-title">STL-deque</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                普通二分查找
-只能在有序数组查找
+                                支持随机访问一一常数O(1)原理
+底层实现逻辑内存不连续，实际上是由一段一段定量的连续空间构成
+在结尾或起始插入或移除元素——常数 O(1)插入或移除元素——线性 O(n)常用操作
 
-// 1、3、5、7、9、10 
-int binary_search(int *arr, int n, int x) {
-    int head = 0, tail = n - 1, mid;
-    
+
+函数
+作用
+
+
+
+front()
+返回第一个元素的引用
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-18
                             </span>
                             <span class="publish-author">
                                 
@@ -621,8 +610,12 @@ int binary_search(int *arr, int n, int x) {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">查找算法</span>
+                        <a href="/tags/C/">
+                            <span class="chip bg-color">C++</span>
+                        </a>
+                        
+                        <a href="/tags/STL/">
+                            <span class="chip bg-color">STL</span>
                         </a>
                         
                     </div>
@@ -634,30 +627,35 @@ int binary_search(int *arr, int n, int x) {
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/f66.html">
+                    <a href="/posts/52b9.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/14.jpg" class="responsive-img" alt="三分查找">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="C++之string的使用">
                             
-                            <span class="card-title">三分查找</span>
+                            <span class="card-title">C++之string的使用</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                用处
-用于函数在单调区间查找极值点
+                                string类
+string 类重载了 + ， +=， =, [] ；
 
-函数double search(double l, double r) { //查找极大值点 
-    while (fabs(l - r) >= EXP) {
-        double midl 
+结构定义string s;
+
+获取长度时间复杂度为O(1)
+
+s.size()
+s.length()
+
+查找s.find( const basic_string&am
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-17
                             </span>
                             <span class="publish-author">
                                 
@@ -671,8 +669,12 @@ int binary_search(int *arr, int n, int x) {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">查找算法</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+                            <span class="chip bg-color">字符串</span>
                         </a>
                         
                     </div>
@@ -698,7 +700,7 @@ int binary_search(int *arr, int n, int x) {
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">35 / 41</div>
+            <div class="center-align b-text-gray">35 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -722,7 +724,7 @@ int binary_search(int *arr, int n, int x) {
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -731,7 +733,7 @@ int binary_search(int *arr, int n, int x) {
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

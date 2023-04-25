@@ -6,7 +6,7 @@
   <link href="https://axieyun.top/atom.xml" rel="self"/>
   
   <link href="https://axieyun.top/"/>
-  <updated>2022-05-24T11:21:19.508Z</updated>
+  <updated>2022-10-29T13:11:06.675Z</updated>
   <id>https://axieyun.top/</id>
   
   <author>
@@ -17,39 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>高阶线性微分方程组matlab求解</title>
-    <link href="https://axieyun.top/posts/a1b6.html"/>
-    <id>https://axieyun.top/posts/a1b6.html</id>
-    <published>2022-05-24T11:18:39.000Z</published>
-    <updated>2022-05-24T11:21:19.508Z</updated>
+    <title></title>
+    <link href="https://axieyun.top/posts/0.html"/>
+    <id>https://axieyun.top/posts/0.html</id>
+    <published>2022-10-29T13:07:24.005Z</published>
+    <updated>2022-10-29T13:11:06.675Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>矩阵方面求协方差矩阵</title>
-    <link href="https://axieyun.top/posts/fbea.html"/>
-    <id>https://axieyun.top/posts/fbea.html</id>
-    <published>2022-05-21T10:01:17.000Z</published>
-    <updated>2022-05-21T10:13:53.760Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;效果&quot;&gt;&lt;a href=&quot;#效果&quot; class=&quot;headerlink&quot; title=&quot;效果&quot;&gt;&lt;/a&gt;效果&lt;/h3&gt;&lt;p&gt;&lt;img</summary>
         
       
     
@@ -59,18 +38,19 @@
   </entry>
   
   <entry>
-    <title>灰色系统</title>
-    <link href="https://axieyun.top/posts/5f9d.html"/>
-    <id>https://axieyun.top/posts/5f9d.html</id>
-    <published>2022-05-12T12:19:56.000Z</published>
-    <updated>2022-05-12T13:53:07.803Z</updated>
+    <title>回归建模的完整流程</title>
+    <link href="https://axieyun.top/posts/55b3.html"/>
+    <id>https://axieyun.top/posts/55b3.html</id>
+    <published>2022-08-30T05:22:31.000Z</published>
+    <updated>2022-08-31T04:20:51.615Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;strong&gt;“凡事预则立，不预则废”，预测问题从古至今都是人们关注的重要内容之一， 回归分析、灰色 预测模型、神经网络学习和模糊预测模型等方法均可以实现在不同领域的预测．其中，灰色预测</summary>
+    <summary type="html">&lt;p&gt;==建立回归模型的一般步骤如下图==&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -80,428 +60,385 @@
   </entry>
   
   <entry>
-    <title>linux之chmod</title>
-    <link href="https://axieyun.top/posts/458a.html"/>
-    <id>https://axieyun.top/posts/458a.html</id>
-    <published>2022-03-28T09:36:55.000Z</published>
-    <updated>2022-05-12T12:20:05.424Z</updated>
+    <title>abd使用</title>
+    <link href="https://axieyun.top/posts/c786.html"/>
+    <id>https://axieyun.top/posts/c786.html</id>
+    <published>2022-07-24T05:21:44.000Z</published>
+    <updated>2022-07-24T05:28:29.551Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;chmod&quot;&gt;&lt;a href=&quot;#chmod&quot; class=&quot;headerlink&quot; title=&quot;chmod&quot;&gt;&lt;/a&gt;chmod&lt;/h3&gt;&lt;pre class=&quot; language-shell&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h3 id=&quot;开启服务&quot;&gt;&lt;a href=&quot;#开启服务&quot; class=&quot;headerlink&quot; title=&quot;开启服务&quot;&gt;&lt;/a&gt;开启服务&lt;/h3&gt;&lt;pre class=&quot; language-cmd&quot;&gt;&lt;code class=&quot;language-cmd&quot;&gt;adb</summary>
         
       
     
     
     
-    
-    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
     
   </entry>
   
   <entry>
-    <title>matlab之struct数组排序</title>
-    <link href="https://axieyun.top/posts/1899.html"/>
-    <id>https://axieyun.top/posts/1899.html</id>
-    <published>2022-03-25T14:04:50.000Z</published>
-    <updated>2022-05-12T09:02:38.512Z</updated>
+    <title>BP神经网络</title>
+    <link href="https://axieyun.top/posts/4cf.html"/>
+    <id>https://axieyun.top/posts/4cf.html</id>
+    <published>2022-07-10T06:38:05.000Z</published>
+    <updated>2022-07-13T12:48:13.637Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;分配内存&quot;&gt;&lt;a href=&quot;#分配内存&quot; class=&quot;headerlink&quot; title=&quot;分配内存&quot;&gt;&lt;/a&gt;分配内存&lt;/h3&gt;&lt;pre class=&quot; language-matlab&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h2 id=&quot;单层BP神经网络&quot;&gt;&lt;a href=&quot;#单层BP神经网络&quot; class=&quot;headerlink&quot; title=&quot;单层BP神经网络&quot;&gt;&lt;/a&gt;单层BP神经网络&lt;/h2&gt;&lt;h3 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="matlab" scheme="https://axieyun.top/tags/matlab/"/>
     
   </entry>
   
   <entry>
-    <title>记录一次在多版本python的系统中指定python版本</title>
-    <link href="https://axieyun.top/posts/8122.html"/>
-    <id>https://axieyun.top/posts/8122.html</id>
-    <published>2022-03-16T13:09:07.000Z</published>
-    <updated>2022-03-16T13:22:02.209Z</updated>
+    <title>数据的正态分布检验</title>
+    <link href="https://axieyun.top/posts/a048.html"/>
+    <id>https://axieyun.top/posts/a048.html</id>
+    <published>2022-07-04T11:06:04.000Z</published>
+    <updated>2022-07-04T11:15:55.297Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;em&gt;在编译cocos2d-x-3.17.2需要2.7版本的python，电脑同时包含多个python版本，我们需要指定python本版来进行编译。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;因为在电脑中，会根据python的环境变量出现顺序执行&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;stro</summary>
+    <summary type="html">&lt;h2 id=&quot;图检验&quot;&gt;&lt;a href=&quot;#图检验&quot; class=&quot;headerlink&quot; title=&quot;图检验&quot;&gt;&lt;/a&gt;图检验&lt;/h2&gt;&lt;h3 id=&quot;Q-Q图&quot;&gt;&lt;a href=&quot;#Q-Q图&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="日志" scheme="https://axieyun.top/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
-    <title>linux的apt命令</title>
-    <link href="https://axieyun.top/posts/19be.html"/>
-    <id>https://axieyun.top/posts/19be.html</id>
-    <published>2022-03-13T11:27:31.000Z</published>
-    <updated>2022-03-13T11:56:37.710Z</updated>
+    <title>判断变量之间的相关性</title>
+    <link href="https://axieyun.top/posts/b06c.html"/>
+    <id>https://axieyun.top/posts/b06c.html</id>
+    <published>2022-07-04T09:16:51.000Z</published>
+    <updated>2022-07-04T11:36:04.527Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;apt与apt-get之间的区别&quot;&gt;&lt;a href=&quot;#apt与apt-get之间的区别&quot; class=&quot;headerlink&quot; title=&quot;apt与apt-get之间的区别&quot;&gt;&lt;/a&gt;apt与apt-get之间的区别&lt;/h3&gt;&lt;pre class=&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;皮尔逊（Pearson）相关系数（就是相关系数）&quot;&gt;&lt;a href=&quot;#皮尔逊（Pearson）相关系数（就是相关系数）&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
     
   </entry>
   
   <entry>
-    <title>linux的apt源配置</title>
-    <link href="https://axieyun.top/posts/b2a1.html"/>
-    <id>https://axieyun.top/posts/b2a1.html</id>
-    <published>2022-03-13T09:22:45.000Z</published>
-    <updated>2022-03-13T11:26:25.552Z</updated>
+    <title>conda使用</title>
+    <link href="https://axieyun.top/posts/d6d0.html"/>
+    <id>https://axieyun.top/posts/d6d0.html</id>
+    <published>2022-06-18T03:19:52.000Z</published>
+    <updated>2022-06-18T06:54:45.223Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;查看源类型&quot;&gt;&lt;a href=&quot;#查看源类型&quot; class=&quot;headerlink&quot; title=&quot;查看源类型&quot;&gt;&lt;/a&gt;查看源类型&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;命令&lt;/p&gt;
-&lt;pre class=&quot; language-bash&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;查看源&lt;/p&gt;
+&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;conda config</summary>
         
       
     
     
     
-    
-    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
     
   </entry>
   
   <entry>
-    <title>linux内核源码下载</title>
-    <link href="https://axieyun.top/posts/7e3f.html"/>
-    <id>https://axieyun.top/posts/7e3f.html</id>
-    <published>2022-03-13T09:05:14.000Z</published>
-    <updated>2022-03-13T09:32:37.048Z</updated>
+    <title>matlab函数总结</title>
+    <link href="https://axieyun.top/posts/b5d8.html"/>
+    <id>https://axieyun.top/posts/b5d8.html</id>
+    <published>2022-06-14T05:57:20.000Z</published>
+    <updated>2022-06-14T07:46:53.090Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;1、查看内核版本&quot;&gt;&lt;a href=&quot;#1、查看内核版本&quot; class=&quot;headerlink&quot; title=&quot;1、查看内核版本&quot;&gt;&lt;/a&gt;1、查看内核版本&lt;/h4&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;这是不是你😜😜😜&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
     
     
-    
-    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
     
   </entry>
   
   <entry>
-    <title>zsh插件</title>
-    <link href="https://axieyun.top/posts/8569.html"/>
-    <id>https://axieyun.top/posts/8569.html</id>
-    <published>2022-03-13T08:49:27.000Z</published>
-    <updated>2022-04-05T06:55:48.387Z</updated>
+    <title>bubbleSort</title>
+    <link href="https://axieyun.top/posts/6b7c.html"/>
+    <id>https://axieyun.top/posts/6b7c.html</id>
+    <published>2022-06-09T05:53:35.000Z</published>
+    <updated>2022-06-09T07:11:23.550Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;Zsh命令自动补全插件-zsh-autosuggestions&quot;&gt;&lt;a href=&quot;#Zsh命令自动补全插件-zsh-autosuggestions&quot; class=&quot;headerlink&quot; title=&quot;Zsh命令自动补全插件</summary>
+    <summary type="html">&lt;h2 id=&quot;冒泡排序&quot;&gt;&lt;a href=&quot;#冒泡排序&quot; class=&quot;headerlink&quot; title=&quot;冒泡排序&quot;&gt;&lt;/a&gt;冒泡排序&lt;/h2&gt;&lt;h3 id=&quot;思想&quot;&gt;&lt;a href=&quot;#思想&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="linux" scheme="https://axieyun.top/tags/linux/"/>
     
   </entry>
   
   <entry>
-    <title>ANSIC标准的预定义宏</title>
-    <link href="https://axieyun.top/posts/6e49.html"/>
-    <id>https://axieyun.top/posts/6e49.html</id>
-    <published>2022-03-12T05:07:27.000Z</published>
-    <updated>2022-03-13T09:29:13.696Z</updated>
+    <title>quickSort</title>
+    <link href="https://axieyun.top/posts/cb7f.html"/>
+    <id>https://axieyun.top/posts/cb7f.html</id>
+    <published>2022-06-09T05:36:53.000Z</published>
+    <updated>2022-06-09T05:51:23.617Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;
-
-ANSI  C 有几个标准的预定义宏，为：
-
-&lt;span class=&quot;token constant&quot;&gt;__FILE__&lt;/span&gt; ： 当前源代码的文件名。
-
-&lt;span</summary>
+    <summary type="html">&lt;h2 id=&quot;快速排序&quot;&gt;&lt;a href=&quot;#快速排序&quot; class=&quot;headerlink&quot; title=&quot;快速排序&quot;&gt;&lt;/a&gt;快速排序&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="C" scheme="https://axieyun.top/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>python网络编码问题</title>
-    <link href="https://axieyun.top/posts/6834.html"/>
-    <id>https://axieyun.top/posts/6834.html</id>
-    <published>2022-03-11T08:23:07.000Z</published>
-    <updated>2022-03-13T09:29:13.707Z</updated>
+    <title>灰色预测模型</title>
+    <link href="https://axieyun.top/posts/abb4.html"/>
+    <id>https://axieyun.top/posts/abb4.html</id>
+    <published>2022-06-08T05:31:54.000Z</published>
+    <updated>2022-06-08T13:08:15.877Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;pre class=&quot; language-tex&quot;&gt;&lt;code class=&quot;language-tex&quot;&gt;
-最近在win 和</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;灰色预测的主要特点是模型使用的不是&lt;strong&gt;原始数据序列&lt;/strong&gt;，而是生成的数据序列。&lt;/li&gt;
+&lt;li&gt;其核心体系是灰色模型（Grey Model，</summary>
         
       
     
     
     
-    
-    <category term="网络编程" scheme="https://axieyun.top/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
-    
-    <category term="python" scheme="https://axieyun.top/tags/python/"/>
-    
-    <category term="编码" scheme="https://axieyun.top/tags/%E7%BC%96%E7%A0%81/"/>
     
   </entry>
   
   <entry>
-    <title>记录一次DNS错误异常，导致浏览器使用不了网络</title>
-    <link href="https://axieyun.top/posts/9815.html"/>
-    <id>https://axieyun.top/posts/9815.html</id>
-    <published>2022-03-08T12:32:56.000Z</published>
-    <updated>2022-03-08T12:45:54.482Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;pre class=&quot; language-tex&quot;&gt;&lt;code class=&quot;language-tex&quot;&gt;2022年3月8日
-
-下午6点上完毛概课，出去吃饭回来发现，电脑DNS异常，导致电脑浏览器网页打不开，具体原因未知。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3</summary>
-        
-      
+    <title>CLARA</title>
+    <link href="https://axieyun.top/posts/1bfe.html"/>
+    <id>https://axieyun.top/posts/1bfe.html</id>
+    <published>2022-06-08T00:47:10.000Z</published>
+    <updated>2022-06-08T00:47:10.602Z</updated>
     
     
     
     
-    <category term="日志" scheme="https://axieyun.top/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
-    <title>链式前向星</title>
-    <link href="https://axieyun.top/posts/c791.html"/>
-    <id>https://axieyun.top/posts/c791.html</id>
-    <published>2022-03-02T09:39:51.000Z</published>
-    <updated>2022-04-03T03:23:34.826Z</updated>
+    <title>k-medoids</title>
+    <link href="https://axieyun.top/posts/657a.html"/>
+    <id>https://axieyun.top/posts/657a.html</id>
+    <published>2022-06-07T14:28:57.000Z</published>
+    <updated>2022-06-08T00:45:27.216Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot; title=&quot;实现&quot;&gt;&lt;/a&gt;实现&lt;/h3&gt;&lt;pre class=&quot; language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;
-&lt;span class=&quot;token</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;k-medoids又称PAM（&lt;/strong&gt;Partitioning Around Medoids&lt;strong&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;优点&quot;&gt;&lt;a href=&quot;#优点&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="图论" scheme="https://axieyun.top/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-    <category term="基础数据结构" scheme="https://axieyun.top/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
-    <title>力扣167、两数之和II-输入有序数组</title>
-    <link href="https://axieyun.top/posts/1b16.html"/>
-    <id>https://axieyun.top/posts/1b16.html</id>
-    <published>2022-03-02T05:53:06.000Z</published>
-    <updated>2022-03-02T06:15:46.751Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个下标从 1 开始的整数数组&amp;nbsp;numbers ，该数组已按 非递减顺序排列&amp;nbsp;</summary>
-        
-      
+    <title>EM聚类</title>
+    <link href="https://axieyun.top/posts/f1d8.html"/>
+    <id>https://axieyun.top/posts/f1d8.html</id>
+    <published>2022-06-07T09:06:32.000Z</published>
+    <updated>2022-06-07T09:06:32.544Z</updated>
     
     
     
     
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="二分查找" scheme="https://axieyun.top/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
-    
-    <category term="双指针" scheme="https://axieyun.top/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
     
   </entry>
   
   <entry>
-    <title>力扣540、有序数组中的单一元素</title>
-    <link href="https://axieyun.top/posts/df39.html"/>
-    <id>https://axieyun.top/posts/df39.html</id>
-    <published>2022-03-01T08:19:49.000Z</published>
-    <updated>2022-03-01T08:41:28.027Z</updated>
+    <title>k均值聚类法</title>
+    <link href="https://axieyun.top/posts/b784.html"/>
+    <id>https://axieyun.top/posts/b784.html</id>
+    <published>2022-06-07T09:03:53.000Z</published>
+    <updated>2022-06-07T14:35:01.394Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;基本思想&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据给定的==参数&lt;em&gt;k&lt;/em&gt;==，先把n个对象粗略分为&lt;em&gt;k&lt;/em&gt;类，&lt;/li&gt;
+&lt;li&gt;然后按照某种最优规则（通常表示为一个准则函数）修改不合理的分类，&lt;/li&gt;
+&lt;li&gt;直到准则函数</summary>
         
       
     
     
     
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="二分查找" scheme="https://axieyun.top/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
     
   </entry>
   
   <entry>
-    <title>力扣139、单词拆分</title>
-    <link href="https://axieyun.top/posts/a8ca.html"/>
-    <id>https://axieyun.top/posts/a8ca.html</id>
-    <published>2022-02-28T14:25:21.000Z</published>
-    <updated>2022-03-01T08:43:06.362Z</updated>
+    <title>聚类分析</title>
+    <link href="https://axieyun.top/posts/9c90.html"/>
+    <id>https://axieyun.top/posts/9c90.html</id>
+    <published>2022-06-07T04:37:54.000Z</published>
+    <updated>2022-06-08T01:45:54.209Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;简介&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;聚类分析又称群分析，是对多个样本（或指标）进行定量分类的一种多元统计分析方法。&lt;/li&gt;
+&lt;li&gt;系统聚类法：每一步都要计算类的距离，计算量大、占内存&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;==Q型聚类==分析</summary>
         
       
     
     
     
-    
-    <category term="dfs" scheme="https://axieyun.top/tags/dfs/"/>
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
-    <title>力扣189、轮转数组</title>
-    <link href="https://axieyun.top/posts/fffc.html"/>
-    <id>https://axieyun.top/posts/fffc.html</id>
-    <published>2022-02-28T12:30:20.000Z</published>
-    <updated>2022-03-01T08:46:32.086Z</updated>
+    <title>二叉查找树</title>
+    <link href="https://axieyun.top/posts/3798.html"/>
+    <id>https://axieyun.top/posts/3798.html</id>
+    <published>2022-06-06T10:27:00.000Z</published>
+    <updated>2022-06-06T12:50:25.846Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个数组，将数组中的元素向右轮转</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;数据结构：定义一种数据结构并维护其性质&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;性质&quot;&gt;&lt;a href=&quot;#性质&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
-    <title>力扣6011、完成比赛的最少时间</title>
-    <link href="https://axieyun.top/posts/7a1d.html"/>
-    <id>https://axieyun.top/posts/7a1d.html</id>
-    <published>2022-02-27T07:04:14.000Z</published>
-    <updated>2022-02-27T07:18:39.158Z</updated>
+    <title>方差分析</title>
+    <link href="https://axieyun.top/posts/111b.html"/>
+    <id>https://axieyun.top/posts/111b.html</id>
+    <published>2022-06-04T07:54:06.000Z</published>
+    <updated>2022-06-04T08:44:16.167Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你一个下标从 0&amp;nbsp;开始的二维整数数组&amp;nbsp;tires&amp;nbsp;，其中&amp;nbsp;tires[i] = [fi,</summary>
+    <summary type="html">&lt;h2 id=&quot;方差分析&quot;&gt;&lt;a href=&quot;#方差分析&quot; class=&quot;headerlink&quot; title=&quot;方差分析&quot;&gt;&lt;/a&gt;方差分析&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;方差分析(analysis of</summary>
         
       
     
     
     
-    
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="完全背包" scheme="https://axieyun.top/tags/%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85/"/>
-    
-    <category term="动态规划" scheme="https://axieyun.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
-    <title>力扣6009、使两字符串互为字母异位词的最少步骤数</title>
-    <link href="https://axieyun.top/posts/e097.html"/>
-    <id>https://axieyun.top/posts/e097.html</id>
-    <published>2022-02-27T04:51:26.000Z</published>
-    <updated>2022-03-01T08:48:32.440Z</updated>
+    <title>伽马函数</title>
+    <link href="https://axieyun.top/posts/9680.html"/>
+    <id>https://axieyun.top/posts/9680.html</id>
+    <published>2022-06-04T03:49:19.000Z</published>
+    <updated>2022-06-04T03:52:59.227Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;em&gt;早上没睡醒，题目没看清，看出构造两个字符串每个位置的字符都互不相同，啊啊啊，我好恨啊&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;给你两个字符串 s</summary>
+    <summary type="html">&lt;h3 id=&quot;伽马函数&quot;&gt;&lt;a href=&quot;#伽马函数&quot; class=&quot;headerlink&quot; title=&quot;伽马函数&quot;&gt;&lt;/a&gt;伽马函数&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;伽马函数也称 tao 函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;卡方分布的概率密度函数和 Γ</summary>
         
       
     
     
     
     
-    <category term="力扣题解" scheme="https://axieyun.top/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/"/>
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://axieyun.top/posts/0.html"/>
+    <id>https://axieyun.top/posts/0.html</id>
+    <published>2022-06-04T03:35:14.959Z</published>
+    <updated>2022-04-07T05:49:58.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;语法&quot;&gt;&lt;a href=&quot;#语法&quot; class=&quot;headerlink&quot; title=&quot;语法&quot;&gt;&lt;/a&gt;语法&lt;/h3&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
     
   </entry>
   

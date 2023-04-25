@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,26 +377,28 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/4b2d.html">
+                    <a href="/posts/5a6e.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/8.jpg" class="responsive-img" alt="旅行计划-拓扑排序">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/13.jpg" class="responsive-img" alt="MySQL之性别约束男、女">
                             
-                            <span class="card-title">旅行计划-拓扑排序</span>
+                            <span class="card-title">MySQL之性别约束男、女</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                旅行计划题目描述 小明要去一个国家旅游。这个国家有 N 个城市，编号为 1 至 N，并且有 MM 条道路连接着，小明准备从其中一个城市出发，并只往东走到城市 i 停止。
- 所以他就需要选择最先到达的城市，并制定一条路线以城市 i 为终点，使
+                                前言对于课本上的check检查约束，在MySQL不支持使用，本人发现使用过程中其不会报错，但查看建表语句发现不存在check,网上查找资料发现
+枚举enum字段类型create table supplier_contact
+(
+    su
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-18
                             </span>
                             <span class="publish-author">
                                 
@@ -410,16 +412,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/">
-                            <span class="chip bg-color">拓扑排序</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/">
-                            <span class="chip bg-color">刷题计划</span>
+                        <a href="/tags/MySQL%E7%AC%94%E8%AE%B0/">
+                            <span class="chip bg-color">MySQL笔记</span>
                         </a>
                         
                     </div>
@@ -431,33 +425,38 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/bdab.html">
+                    <a href="/posts/80b5.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/3.jpg" class="responsive-img" alt="线段树">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="MySQL之事务">
                             
-                            <span class="card-title">线段树</span>
+                            <span class="card-title">MySQL之事务</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                线段树作用
-求解区间和
-求解区间最大值
-单点修改、区间修改
-扫描线、主席树
+                                定义
+事务: 指的是 逻辑上的⼀组操作 ，组成这组操作的各个单元要么全都成功，要么全都失败。
 
-建树与懒标记下沉//建树 
-void built_tree(int l, int r, int now) {
-    tree[now].l = l, tree[
+begin; #开启事务
+
+
+rollback; # 事务回滚
+
+
+commit;  # 事务提交
+
+
+
+隐式提交当我们使⽤ start tra
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
                             </span>
                             <span class="publish-author">
                                 
@@ -471,8 +470,8 @@ void built_tree(int l, int r, int now) {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/MySQL/">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                     </div>
@@ -484,27 +483,27 @@ void built_tree(int l, int r, int now) {
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/515c.html">
+                    <a href="/posts/7a16.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/13.jpg" class="responsive-img" alt="启发式搜索">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/15.jpg" class="responsive-img" alt="MySQL之视图">
                             
-                            <span class="card-title">启发式搜索</span>
+                            <span class="card-title">MySQL之视图</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                A*搜索代码演示/*************************************************************************
-        > File Name: A星搜索.cpp
-       
+                                视图作⽤
+视图是 虚拟的表 。与包含数据的表不⼀样，视图只包含使⽤时动态检索数据的查询。
+在视图创建之后，可以⽤与表基本相同的⽅式利⽤它们。可以对视图执⾏ SELECT 操作，过滤和排序数据，将视图联结到其他视图或 表，甚⾄能添加和更新数据
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
                             </span>
                             <span class="publish-author">
                                 
@@ -518,8 +517,8 @@ void built_tree(int l, int r, int now) {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">搜索算法</span>
+                        <a href="/tags/MySQL/">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                     </div>
@@ -531,31 +530,26 @@ void built_tree(int l, int r, int now) {
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/d923.html">
+                    <a href="/posts/cb91.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="Kruskal算法">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/13.jpg" class="responsive-img" alt="MySQL之表关联查询">
                             
-                            <span class="card-title">Kruskal算法</span>
+                            <span class="card-title">MySQL之表关联查询</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                克鲁斯卡算法算法思想以边为主
-
-（1）将图中的所有边都去掉。
-（2）将边按权值（排序，升序）从小到大的顺序添加到图中，保证添加的过程中不会形成环
-（3）重复上一步直到连接所有顶点，此时就生成了最小生成树。这是一种贪心策略。
-
-Kruskal
+                                内连接习题1-- 假设现在我想查询给我们供货的供应商的名称，以及商品名称和商品价格。此时我们发现，要查询的字段不在同⼀张表⾥。供应商名称
+-- 在 vendors 表⾥，⽽商品名称和商品价格在 products 表⾥，这时可以使⽤内联查询，
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
                             </span>
                             <span class="publish-author">
                                 
@@ -569,12 +563,8 @@ Kruskal
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%A0%91/">
-                            <span class="chip bg-color">树</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
+                        <a href="/tags/MySQL/">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                     </div>
@@ -586,32 +576,31 @@ Kruskal
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/8419.html">
+                    <a href="/posts/80fc.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="牛客保卫村庄之树的重心">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/8.jpg" class="responsive-img" alt="python之pandas">
                             
-                            <span class="card-title">牛客保卫村庄之树的重心</span>
+                            <span class="card-title">python之pandas</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                吐槽不给数据范围，垃圾题目
-题目连接：保卫村庄 (nowcoder.com)
-#include &lt;stdio.h>
-
-using namespace std;
-
-#define max(a, b) ({\
-    (a) > (b) 
+                                先上代码，笔记后面总结
+代码一import pandas as pd
+import matplotlib.pyplot as plt
+import string as st
+import numpy as np
+import jieba
+i
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-31
                             </span>
                             <span class="publish-author">
                                 
@@ -625,12 +614,8 @@ using namespace std;
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%A0%91%E7%9A%84%E9%87%8D%E5%BF%83/">
-                            <span class="chip bg-color">树的重心</span>
+                        <a href="/tags/python/">
+                            <span class="chip bg-color">python</span>
                         </a>
                         
                     </div>
@@ -642,33 +627,27 @@ using namespace std;
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/b483.html">
+                    <a href="/posts/9088.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="Prim算法">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="MySQL之多表查询">
                             
-                            <span class="card-title">Prim算法</span>
+                            <span class="card-title">MySQL之多表查询</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                普里姆算法以点为主
-算法流程
-全集点集为u，最小生成树点集为v
-
-随机选取起点，起点入加集合v
-
-（1）由集合v中选取所有的点向外扩散，找到最小边权连接的点，且该点属于（u - v），把该点加入集合v
-
-重复步骤（1），直到集合v == 集
+                                外键外键（foreign key）：外键为某个表中的⼀列，它包含另⼀个表的主键值，定义了两个表之间的关系。 
+主表（⽗表）：对于两个具有关联关系的表⽽⾔，相关联字段中的主键所在的那个表即是主表。
+从表（⼦表）：对于两个具有关联关系的表⽽⾔，
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-28
                             </span>
                             <span class="publish-author">
                                 
@@ -682,12 +661,8 @@ using namespace std;
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%A0%91/">
-                            <span class="chip bg-color">树</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">最小生成树算法</span>
+                        <a href="/tags/MySQL/">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                     </div>
@@ -713,7 +688,7 @@ using namespace std;
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">23 / 41</div>
+            <div class="center-align b-text-gray">23 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -737,7 +712,7 @@ using namespace std;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -746,7 +721,7 @@ using namespace std;
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

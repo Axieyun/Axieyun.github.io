@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,30 +377,25 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/ebf0.html">
+                    <a href="/posts/d65.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="MySQL之分组查询">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/15.jpg" class="responsive-img" alt="进程通信">
                             
-                            <span class="card-title">MySQL之分组查询</span>
+                            <span class="card-title">进程通信</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                # 查询商品表，返回供应商1003提供的产品数目
-SELECT COUNT(*) AS prod_num
-FROM products
-WHERE vend_id = 1003;
-
-SELECT COUNT(prod_id) AS prod_
+                                概念每个进程各自有不同的用户地址空间，任何一个进程的全局变量在另一个进程中都看不到，所以进程之间要交换数据必须通过内核，在内核中开辟一块缓冲区。进程1把数据从用户空间拷到内核缓冲区，进程2再从内核缓冲区把数据读走，内核提供的这种机制称为进程
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
                             </span>
                             <span class="publish-author">
                                 
@@ -414,8 +409,8 @@ SELECT COUNT(prod_id) AS prod_
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/MySQL/">
-                            <span class="chip bg-color">MySQL</span>
+                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">系统编程</span>
                         </a>
                         
                     </div>
@@ -427,27 +422,30 @@ SELECT COUNT(prod_id) AS prod_
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/7b13.html">
+                    <a href="/posts/bc2f.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/10.jpg" class="responsive-img" alt="MySQL之SQL约束">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/19.jpg" class="responsive-img" alt="wait与waitpid">
                             
-                            <span class="card-title">MySQL之SQL约束</span>
+                            <span class="card-title">wait与waitpid</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                约束约束, 其实就是⼀种限制条件, 让你不能超出这个控制范围。 公路上有速度限制、⻋距限制、鸣笛限制。 ⽽在数据库中的约束，就是指 表中的数据内容 不能胡乱填写，必须按照要求填写，好保证数据的 完整性与安全性 .
-数据准备-- 准备数据
-C
+                                       #include &lt;sys/types.h>
+       #include &lt;sys/wait.h>
+
+       pid_t wait(int *wstatus);
+
+       pid_t waitpid
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
                             </span>
                             <span class="publish-author">
                                 
@@ -461,8 +459,8 @@ C
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/MySQL/">
-                            <span class="chip bg-color">MySQL</span>
+                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">系统编程</span>
                         </a>
                         
                     </div>
@@ -474,27 +472,72 @@ C
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/20ee.html">
+                    <a href="/posts/4635.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="MySQL之函数">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="linux命令">
                             
-                            <span class="card-title">MySQL之函数</span>
+                            <span class="card-title">linux命令</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                
-SELECT prod_id, prod_name, prod_price FROM products ORDER BY prod_price DESC LIMIT 0, 3;
-SELECT products.prod_id, produ
+                                进程杀死进程kill -9 进程id 
+
+怎么清除僵尸进程？
+杀掉父进程
+
+
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/810c.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/16.jpg" class="responsive-img" alt="dup和dup2">
+                            
+                            <span class="card-title">dup和dup2</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                函数原型       #include &lt;unistd.h>
+
+       int dup(int oldfd);
+       int dup2(int oldfd, int newfd);
+
+       #define _GN
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
                             </span>
                             <span class="publish-author">
                                 
@@ -508,8 +551,8 @@ SELECT products.prod_id, produ
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/MySQL/">
-                            <span class="chip bg-color">MySQL</span>
+                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">系统编程</span>
                         </a>
                         
                     </div>
@@ -521,29 +564,27 @@ SELECT products.prod_id, produ
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/2cca.html">
+                    <a href="/posts/d811.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/9.jpg" class="responsive-img" alt="py之类">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/21.jpg" class="responsive-img" alt="exec函数族">
                             
-                            <span class="card-title">py之类</span>
+                            <span class="card-title">exec函数族</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                类的定义
-类（class）：用来描述具有相同的属性和方法的对象的集合，对象是类的实例
-方法：类中的函数
-类变量：在整个实例化的对象是公有的。类变量定义在类中且在函数体之外。类变量通常不作为实例变量使用
-数据成员：类变量或者实例变量用于处理类
+                                当进程调用一种exec函数时，该进程的用户空间代码和数据完全被新程序替换，从新的程序的启动例程开始执行。
+这些函数如果调用成功则加载新的程序从启动代码开始执行，不再返回，如果调用出错则返回-1，所以exec函数只有出错的返回值。
+头文件#i
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-27
                             </span>
                             <span class="publish-author">
                                 
@@ -557,8 +598,8 @@ SELECT products.prod_id, produ
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/python/">
-                            <span class="chip bg-color">python</span>
+                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">系统编程</span>
                         </a>
                         
                     </div>
@@ -570,29 +611,43 @@ SELECT products.prod_id, produ
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/2e4e.html">
+                    <a href="/posts/47c5.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/8.jpg" class="responsive-img" alt="py之文件操作">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="linux之链接建立">
                             
-                            <span class="card-title">py之文件操作</span>
+                            <span class="card-title">linux之链接建立</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                注意
-write写文件都是字符串，不是字符串，先转换为字符串读入
+                                硬连接ln 原文件路径 建立的连接名
 
-f = open('text.txt', mode='w', encoding='utf-8')
-num = f.write('Axieyun:Python是一门十分优雅的
+
+例如：为当前目录下test.txt建立硬链接
+
+
+ln ./test.txt ttt
+
+
+
+
+
+软链接ln -s 原文件路径 建立的连接名字
+
+
+例如：为当前目录下test.txt建立软链接
+
+
+l
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-27
                             </span>
                             <span class="publish-author">
                                 
@@ -606,58 +661,8 @@ num = f.write('Axieyun:Python是一门十分优雅的
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/python/">
-                            <span class="chip bg-color">python</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/6aa2.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/5.jpg" class="responsive-img" alt="py之输入输出">
-                            
-                            <span class="card-title">py之输入输出</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                原型print函数原型print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
-
-
-*objects：一个或多个待打印对象
-sep与end看实例
-file：指定文本流，表
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/python/">
-                            <span class="chip bg-color">python</span>
+                        <a href="/tags/linux%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">linux基础</span>
                         </a>
                         
                     </div>
@@ -683,7 +688,7 @@ file：指定文本流，表
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">17 / 41</div>
+            <div class="center-align b-text-gray">17 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -707,7 +712,7 @@ file：指定文本流，表
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -716,7 +721,7 @@ file：指定文本流，表
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,32 +377,30 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/a79a.html">
+                    <a href="/posts/ff14.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="20括号匹配">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/15.jpg" class="responsive-img" alt="二叉排序树">
                             
-                            <span class="card-title">20括号匹配</span>
+                            <span class="card-title">二叉排序树</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                题目给定一个只包括 ‘(‘，’)’，’{‘，’}’，’[‘，’]’ 的字符串 s ，判断字符串是否有效。
-有效字符串需满足：
+                                都是查找，二叉查找树与hash相比有什么特点？
+二叉查找树在比较平衡的情况下，插入、删除、查找操作时间复杂度才是 O(logn)
+散列hash表扩容耗时多, 发生冲突时，性能不稳定，而二叉排序树插入、删除、查找稳定在O(longn)
 
-左括号必须用相同类型的右括号闭合。
-左括号必须以正确的顺序闭合。
 
-示例 1：
-输入：s = “()”输出：tr
+二
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-09
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-07
                             </span>
                             <span class="publish-author">
                                 
@@ -416,8 +414,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
-                            <span class="chip bg-color">力扣题解</span>
+                        <a href="/tags/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                            <span class="chip bg-color">高级数据结构</span>
                         </a>
                         
                     </div>
@@ -429,37 +427,37 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/5d2f.html">
+                    <a href="/posts/2c28.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/10.jpg" class="responsive-img" alt="链栈">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="两个大整数除法及高精度取余">
                             
-                            <span class="card-title">链栈</span>
+                            <span class="card-title">两个大整数除法及高精度取余</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                链栈何为链栈
-由链表实现的栈
+                                原理
+遍历被除数
 
-优点
-插入元素和删除元素时间复杂度都是常数O(1)
+每次判断缓存rem是否大于除数s1
 
-实现方法
-头插法
+大于rem减去一次除数s1, 答案ans加一，再次判断
 
-结构定义typedef struct Node {
-    int data;
-    struct Node *next;
-} No
+小于直接跳过，等于直接让rem为空，答案ans加一
+
+退出循环后rem就是余数，处理一下ans前导0就可以得到商了
+
+
+模拟
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-09
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-07
                             </span>
                             <span class="publish-author">
                                 
@@ -473,8 +471,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/%E4%BB%A3%E7%A0%81%E6%A8%A1%E6%9D%BF/">
+                            <span class="chip bg-color">代码模板</span>
                         </a>
                         
                     </div>
@@ -486,67 +484,29 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/30dc.html">
+                    <a href="/posts/54c.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="双向循环链表">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/3.jpg" class="responsive-img" alt="两个大整数减法">
                             
-                            <span class="card-title">双向循环链表</span>
+                            <span class="card-title">两个大整数减法</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
+                                代码演示#include &lt;stdio.h>
+#include &lt;string.h>
 
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/9199.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/16.jpg" class="responsive-img" alt="栈">
-                            
-                            <span class="card-title">栈</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                栈性质
-先进后出
-FILO : first in last out
-LIFO : last in first out
-
-结构定义typedef struct Stack {
-    int *data;
-    int size, top;
+char s1[1005], s2[1005]; //全局定义初始化为0或者'\0' 
+int n1[1005], n2[1005], an
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-07
                             </span>
                             <span class="publish-author">
                                 
@@ -560,8 +520,8 @@ LIFO : last in first out
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/%E4%BB%A3%E7%A0%81%E6%A8%A1%E6%9D%BF/">
+                            <span class="chip bg-color">代码模板</span>
                         </a>
                         
                     </div>
@@ -573,34 +533,25 @@ LIFO : last in first out
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/682f.html">
+                    <a href="/posts/bca1.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/16.jpg" class="responsive-img" alt="队列">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/22.jpg" class="responsive-img" alt="海贼oj590之动态规划">
                             
-                            <span class="card-title">队列</span>
+                            <span class="card-title">海贼oj590之动态规划</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                顺序队列
-FIFO : first int first out 先进先出
- LILO: last int last out  后进后出
-线性结构
-需要一片连续存储空间
-队首head, 队尾tail
-先进先出
-队尾入队，队首出队
-
-结构定义/
+                                题目 相信大家都学过树塔问题，题目很简单求最大化一个三角形数塔从上往下走的路径和。走的规则是：（i，j） 号点只能走向 （i+1，j） 或者 （i+1，j+1）。如下图是一个数塔，映射到该数塔上行走的规则为：从左上角的点开始，向下走或向右下
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-06
                             </span>
                             <span class="publish-author">
                                 
@@ -614,8 +565,8 @@ FIFO : first int first out 先进先出
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/%E7%AE%97%E6%B3%95%E6%8A%80%E5%B7%A7/">
+                            <span class="chip bg-color">算法技巧</span>
                         </a>
                         
                     </div>
@@ -627,31 +578,32 @@ FIFO : first int first out 先进先出
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/98f5.html">
+                    <a href="/posts/a561.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="判断一个整数是否为2的幂">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/10.jpg" class="responsive-img" alt="两个大整数乘法">
                             
-                            <span class="card-title">判断一个整数是否为2的幂</span>
+                            <span class="card-title">两个大整数乘法</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                
-也许你会想到不断将这个数除以2
-本次方法利用二进制的巧妙之处
-一个不为0的十进制数的二进制数有且只有一个1，所以若该数是二进制数，那么它减1与本身进行按位与（&amp;）运算结果为0
+                                代码演示#include &lt;stdio.h>
+#include &lt;string.h>
+//一般方法
 
+char s1[1005], s2[1005];
+int n1[1005], n2[1005], ans[2005];
 
-#define is_power_of_2(n) 
+in
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-06
                             </span>
                             <span class="publish-author">
                                 
@@ -665,8 +617,64 @@ FIFO : first int first out 先进先出
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/c%E8%AF%AD%E8%A8%80%E7%9A%84%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/">
-                            <span class="chip bg-color">c语言的奇淫技巧</span>
+                        <a href="/tags/%E4%BB%A3%E7%A0%81%E6%A8%A1%E6%9D%BF/">
+                            <span class="chip bg-color">代码模板</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/56e3.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="欧拉计划25之大数加法">
+                            
+                            <span class="card-title">欧拉计划25之大数加法</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                题解#include &lt;stdio.h>
+
+
+#define swap(a, b) {\
+    __typeof(a) temp = a;\
+    a = b; b = temp;\
+}
+int num[2][1005] = {{
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-06
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%AC%A7%E6%8B%89%E8%AE%A1%E5%88%92/">
+                            <span class="chip bg-color">欧拉计划</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%AE%97%E6%B3%95%E6%8A%80%E5%B7%A7/">
+                            <span class="chip bg-color">算法技巧</span>
                         </a>
                         
                     </div>
@@ -692,7 +700,7 @@ FIFO : first int first out 先进先出
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">38 / 41</div>
+            <div class="center-align b-text-gray">38 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -716,7 +724,7 @@ FIFO : first int first out 先进先出
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -725,7 +733,7 @@ FIFO : first int first out 先进先出
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

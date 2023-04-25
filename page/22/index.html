@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,28 +377,30 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/bab9.html">
+                    <a href="/posts/c2a8.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="力扣题解300.最长递增子序列">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/2.jpg" class="responsive-img" alt="深复制与浅复制">
                             
-                            <span class="card-title">力扣题解300.最长递增子序列</span>
+                            <span class="card-title">深复制与浅复制</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                思路看注释O（n ^ 2）class Solution {
-public:
-    int lengthOfLIS(vector&lt;int>&amp; nums) {
-        int dp[nums.size()]; // dp
+                                浅拷贝
+自己没有定义复制构造函数的话，系统默认定义一个构造函数，该构造函数就是浅复制。
+
+当一个对象被建立的时候，我们知道，通过我们定义的构造函数，系统会新建一个对象，包括两个成员变量size和data。
+
+然后，构造函数会使用动态内存分配
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-11
                             </span>
                             <span class="publish-author">
                                 
@@ -412,12 +414,8 @@ public:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
-                            <span class="chip bg-color">力扣题解</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
-                            <span class="chip bg-color">动态规划</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -429,28 +427,30 @@ public:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/a5b9.html">
+                    <a href="/posts/ca4c.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/10.jpg" class="responsive-img" alt="力扣题解198.打家劫舍">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/1.jpg" class="responsive-img" alt="模板定义的array类">
                             
-                            <span class="card-title">力扣题解198.打家劫舍</span>
+                            <span class="card-title">模板定义的array类</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                思路都在注释自己写的class Solution {
-public:
-    int rob(vector&lt;int>&amp; nums) {
-        if (nums.size() == 1) return nums[0];
+                                题目描述
+定义一一个可以保存数组，并且支持多种类型的 array
+定义的 array 需要支持以下功能：
+
+构造的时候，给予一个整数参数 n，确定对象的容量（即内部要开多大的数组）
+通过insert成员函数在数组内的末尾插入一个元素，如果容
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-11
                             </span>
                             <span class="publish-author">
                                 
@@ -464,12 +464,8 @@ public:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
-                            <span class="chip bg-color">力扣题解</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
-                            <span class="chip bg-color">动态规划</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -481,32 +477,37 @@ public:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/bbc9.html">
+                    <a href="/posts/35c4.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/13.jpg" class="responsive-img" alt="洛谷P1144最短路计数">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/9.jpg" class="responsive-img" alt="C++之new和delete">
                             
-                            <span class="card-title">洛谷P1144最短路计数</span>
+                            <span class="card-title">C++之new和delete</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Dijkstra解法#include &lt;stdio.h>
-#include &lt;queue>
-#include &lt;string.h>
+                                new
+申请内存，调用构造函数
 
-using namespace std;
+语法
 
-inline int read() {
-  
+new 数据类型(初始化参数列表);
+// 内存申请成功，那么new运算符就会返回一个指向新分配内存区域首地址的指针;
+
+
+例子
+
+double *point;
+point=new double(2
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-10
                             </span>
                             <span class="publish-author">
                                 
@@ -520,16 +521,8 @@ inline int read() {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SPFA/">
-                            <span class="chip bg-color">SPFA</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/">
-                            <span class="chip bg-color">最短路</span>
-                        </a>
-                        
-                        <a href="/tags/Dijkstra/">
-                            <span class="chip bg-color">Dijkstra</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -541,34 +534,27 @@ inline int read() {
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/843.html">
+                    <a href="/posts/ca40.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/0.jpg" class="responsive-img" alt="洛谷P1265公路修建-Prim优先队列">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="C++之对象指针">
                             
-                            <span class="card-title">洛谷P1265公路修建-Prim优先队列</span>
+                            <span class="card-title">C++之对象指针</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                朴素Prim
-//法二：朴素版
-
-#include &lt;stdio.h>
-#include &lt;queue>
-#include &lt;cmath>
-
-using namespace std;
-
-#define min(a, b) 
+                                概念
+跟基本类型的变量一样，每一个对象在初始化之后，都会在内存中占据一定的空间——所以我们同样也可以通过地址来访问一个对象。
+尽管对象同时包含了数据和函数两种成员，但是对象所占据的内存空间只用于存放数据成员——函数成员并不在每一个对象的存储
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-10
                             </span>
                             <span class="publish-author">
                                 
@@ -582,12 +568,8 @@ using namespace std;
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
-                        </a>
-                        
-                        <a href="/tags/Prim%E7%AE%97%E6%B3%95/">
-                            <span class="chip bg-color">Prim算法</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -599,25 +581,28 @@ using namespace std;
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/8dc0.html">
+                    <a href="/posts/7fcc.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/5.jpg" class="responsive-img" alt="排序-拓扑排序">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="C++11之decltype">
                             
-                            <span class="card-title">排序-拓扑排序</span>
+                            <span class="card-title">C++11之decltype</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                排序题目描述 一个不同的值的升序排序数列指的是一个从左到右元素依次增大的序列，例如，一个有序的数列 A,B,C,DA,B,C,D 表示 A&lt;B,B&lt;C,C&lt;DA&lt;B,B&lt;C,C&lt;D。在这道题中，我们将给你
+                                
+decltype与auto关键字一样，用于进行编译时类型推导。
+decltype实际上有点像auto的反函数，auto可以让你声明一个变量，而decltype则可以从一个变量或表达式中得到类型。
+注意，decltype 仅仅“查询”表达式
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-10
                             </span>
                             <span class="publish-author">
                                 
@@ -631,12 +616,8 @@ using namespace std;
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/">
-                            <span class="chip bg-color">拓扑排序</span>
+                        <a href="/tags/C-11/">
+                            <span class="chip bg-color">C++11</span>
                         </a>
                         
                     </div>
@@ -648,26 +629,53 @@ using namespace std;
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/4a80.html">
+                    <a href="/posts/24db.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/19.jpg" class="responsive-img" alt="食物链计数-拓扑排序">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/15.jpg" class="responsive-img" alt="16进制转8进制">
                             
-                            <span class="card-title">食物链计数-拓扑排序</span>
+                            <span class="card-title">16进制转8进制</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                食物链计数题目描述 给你一个食物网，你要求出这个食物网中所有食物链的数量。（这里的“食物链”，指的是生物学意义上的食物链，即最左端是不会捕食其他生物的生产者，最右端是不会被其他生物捕食的消费者。）
- 由于这个结果可能过大，你只需要输出总数模
+                                看个好东西
+
+
+16进制数
+2进制数
+2进制数
+8进制数
+
+
+
+1A
+1 1010
+11 010
+32
+
+
+10
+1 0000
+10 000
+20
+
+
+3b
+11 1011
+111 011
+73
+
+
+从该表格可以看出，一位16进制的数对应2
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-23
                             </span>
                             <span class="publish-author">
                                 
@@ -681,16 +689,8 @@ using namespace std;
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
-                            <span class="chip bg-color">图论</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/">
-                            <span class="chip bg-color">拓扑排序</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/">
-                            <span class="chip bg-color">刷题计划</span>
+                        <a href="/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/">
+                            <span class="chip bg-color">进制转换</span>
                         </a>
                         
                     </div>
@@ -716,7 +716,7 @@ using namespace std;
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">22 / 41</div>
+            <div class="center-align b-text-gray">22 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -740,7 +740,7 @@ using namespace std;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -749,7 +749,7 @@ using namespace std;
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

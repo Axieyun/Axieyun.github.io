@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,36 +377,34 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/adb5.html">
+                    <a href="/posts/7663.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/6.jpg" class="responsive-img" alt="记录一个C++虚继承内存地址相关问题">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/8.jpg" class="responsive-img" alt="sunday与kmp总结">
                             
-                            <span class="card-title">记录一个C++虚继承内存地址相关问题</span>
+                            <span class="card-title">sunday与kmp总结</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                运行环境：64位win电脑
-贴出代码// 解决菱形继承问题
+                                kmp算法时间复杂度
+O(n + m)
+
+next数组
+next数组 代表当前字符之前的字符串中，有多大长度的相同前缀后缀
+
+有两种表示方法：
 
 
-#include &lt;iostream>
-
-using std::cout;
-using std::endl;
-
-class A {
-public:
-    int a; 
+next[i] = k：表示第i位字符之前的字符串最长前缀的长度（这里的最长前缀满足next
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-25
                             </span>
                             <span class="publish-author">
                                 
@@ -420,8 +418,12 @@ public:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E9%97%AE%E9%A2%98/">
-                            <span class="chip bg-color">问题</span>
+                        <a href="/tags/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                            <span class="chip bg-color">高级数据结构</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95/">
+                            <span class="chip bg-color">字符串匹配算法</span>
                         </a>
                         
                     </div>
@@ -433,36 +435,105 @@ public:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/3e83.html">
+                    <a href="/posts/f91f.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/23.jpg" class="responsive-img" alt="C++实现简单的分数类">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/4.jpg" class="responsive-img" alt="epoll总结">
                             
-                            <span class="card-title">C++实现简单的分数类</span>
+                            <span class="card-title">epoll总结</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                #include 
-#include 
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-25
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
 
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/f303.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/8.jpg" class="responsive-img" alt="recv与send总结">
+                            
+                            <span class="card-title">recv与send总结</span>
+                        </div>
+                    </a>
 
-using std::cout;
-using std::endl;
-
-
-class Fraction{
-private:
-    int _molecule; //分子
-    int _deno
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-25
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/d609.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/18.jpg" class="responsive-img" alt="AVL树">
+                            
+                            <span class="card-title">AVL树</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                AVL
+平衡二叉搜索树
+
+性质
+完美继承二叉搜索树的性质
+|H(left) - H(right)| &lt;= 1
+
+优点
+由于对每个节点的左右子树的树高做了限制，所以整棵树不会退化为一个链表
+继承了二叉搜索树的优点
+高度平衡的二叉搜索树，
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-20
                             </span>
                             <span class="publish-author">
                                 
@@ -476,8 +547,8 @@ private:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
+                        <a href="/tags/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                            <span class="chip bg-color">高级数据结构</span>
                         </a>
                         
                     </div>
@@ -489,35 +560,29 @@ private:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/23c6.html">
+                    <a href="/posts/f01a.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="C++实现简单的string">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/6.jpg" class="responsive-img" alt="二叉搜索树">
                             
-                            <span class="card-title">C++实现简单的string</span>
+                            <span class="card-title">二叉搜索树</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                #include 
-#include 
-#include 
-
-#include 
-using namespace std;
-  
-class MyString {
-private:
-    
-    size_t _length;  // 
+                                性质
+左子树 &lt; 根节点
+右子树 &gt; 根节点
+树的结构与插入顺序有关，树型结构不稳定（时间复杂度不稳定），可能退化为链表
+插入 删除 查找 的 时间复杂度：O(h) ~ O(lgh)，与树的高度成正比，最好情况时间复杂度是以2为
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-19
                             </span>
                             <span class="publish-author">
                                 
@@ -531,8 +596,8 @@ private:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
+                        <a href="/tags/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                            <span class="chip bg-color">高级数据结构</span>
                         </a>
                         
                     </div>
@@ -544,37 +609,26 @@ private:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/aade.html">
+                    <a href="/posts/2c1b.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="C++多态与重载">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/9.jpg" class="responsive-img" alt="win子系统linux与云服务器传输文件">
                             
-                            <span class="card-title">C++多态与重载</span>
+                            <span class="card-title">win子系统linux与云服务器传输文件</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                重载语法 operator () {
-// 函数体
-}
-
-不能重载的运算符
-? : 条件运算符
-.(成员访问运算符)
-*(成员指针访问运算符)
-::(域运算符)
-sizeof(sizeof是运算符，不是函数)
-
-多态
-多态按字面的意思就是多
+                                scp命令语法scp [-1246BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+[-l limit] [-o ssh_option] [-P port] [-S program
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-18
                             </span>
                             <span class="publish-author">
                                 
@@ -588,115 +642,8 @@ sizeof(sizeof是运算符，不是函数)
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/8fdc.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/14.jpg" class="responsive-img" alt="C++之声明、定义、初始化与赋值">
-                            
-                            <span class="card-title">C++之声明、定义、初始化与赋值</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                前言
-区分声明和定义可以让C++支持分开编译
-声明常常见于头文件中
-
-声明(Declaration)
-声明是向编译器介绍名字－－标识符。它告诉编译器“这个函数或变量在某处可找到，它的模样象什么”。
-
-作用
-只是规定了变量的类型和名字，而没有
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/f9b1.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/22.jpg" class="responsive-img" alt="C++类方法与类属性">
-                            
-                            <span class="card-title">C++类方法与类属性</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                类属性（静态变量成员）
-static修饰的变量
-非const修饰static类型的变量只能类外定义初始化，只能在类内声明
-const修饰的数据必须初始化
-
-类方法（静态函数成员）
-static修饰的方法
-类方法只能访问修改类属性
-
-为什么要
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-13
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
+                        <a href="/tags/Linux/">
+                            <span class="chip bg-color">Linux</span>
                         </a>
                         
                     </div>
@@ -722,7 +669,7 @@ static修饰的方法
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">13 / 41</div>
+            <div class="center-align b-text-gray">13 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -746,7 +693,7 @@ static修饰的方法
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -755,7 +702,7 @@ static修饰的方法
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

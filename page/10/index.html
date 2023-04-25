@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,72 +377,39 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/4635.html">
+                    <a href="/posts/6e49.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="linux命令">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="ANSIC标准的预定义宏">
                             
-                            <span class="card-title">linux命令</span>
+                            <span class="card-title">ANSIC标准的预定义宏</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                进程杀死进程kill -9 进程id 
+                                
 
-怎么清除僵尸进程？
-杀掉父进程
+ANSI  C 有几个标准的预定义宏，为：
+
+__FILE__ ： 当前源代码的文件名。
+
+__LINE__： 当前源代码的行号。
+
+__DATE__：当前的编译日期。
+
+__TIME__：当前的编译时间。
+
+
 
 
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/810c.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/16.jpg" class="responsive-img" alt="dup和dup2">
-                            
-                            <span class="card-title">dup和dup2</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                函数原型       #include &lt;unistd.h>
-
-       int dup(int oldfd);
-       int dup2(int oldfd, int newfd);
-
-       #define _GN
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-12
                             </span>
                             <span class="publish-author">
                                 
@@ -456,8 +423,8 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
-                            <span class="chip bg-color">系统编程</span>
+                        <a href="/tags/C/">
+                            <span class="chip bg-color">C</span>
                         </a>
                         
                     </div>
@@ -469,27 +436,32 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/d811.html">
+                    <a href="/posts/6834.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/21.jpg" class="responsive-img" alt="exec函数族">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/4.jpg" class="responsive-img" alt="python网络编码问题">
                             
-                            <span class="card-title">exec函数族</span>
+                            <span class="card-title">python网络编码问题</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                当进程调用一种exec函数时，该进程的用户空间代码和数据完全被新程序替换，从新的程序的启动例程开始执行。
-这些函数如果调用成功则加载新的程序从启动代码开始执行，不再返回，如果调用出错则返回-1，所以exec函数只有出错的返回值。
-头文件#i
+                                前言
+最近在win 和 linux进行网络编程时，win利用python编写图形化客户端，Linux编写server。
+遇到问题：网络字节流的传输
+
+在python中，字节流与字符编码，以及老是遇到无效解码位置
+
+学习
+在最新的Python
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-11
                             </span>
                             <span class="publish-author">
                                 
@@ -503,8 +475,16 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
-                            <span class="chip bg-color">系统编程</span>
+                        <a href="/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">网络编程</span>
+                        </a>
+                        
+                        <a href="/tags/python/">
+                            <span class="chip bg-color">python</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%BC%96%E7%A0%81/">
+                            <span class="chip bg-color">编码</span>
                         </a>
                         
                     </div>
@@ -516,43 +496,37 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/47c5.html">
+                    <a href="/posts/9815.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/7.jpg" class="responsive-img" alt="linux之链接建立">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/9.jpg" class="responsive-img" alt="记录一次DNS错误异常，导致浏览器使用不了网络">
                             
-                            <span class="card-title">linux之链接建立</span>
+                            <span class="card-title">记录一次DNS错误异常，导致浏览器使用不了网络</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                硬连接ln 原文件路径 建立的连接名
+                                2022年3月8日
+
+下午6点上完毛概课，出去吃饭回来发现，电脑DNS异常，导致电脑浏览器网页打不开，具体原因未知。
+
+解决方案
+修改本机电脑DNS
 
 
-例如：为当前目录下test.txt建立硬链接
-
-
-ln ./test.txt ttt
+阿里云公共DNS地址：223.5.5.5和223.6.6.6
 
 
 
-
-
-软链接ln -s 原文件路径 建立的连接名字
-
-
-例如：为当前目录下test.txt建立软链接
-
-
-l
+百度公共DNS地址
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-08
                             </span>
                             <span class="publish-author">
                                 
@@ -566,8 +540,8 @@ l
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/linux%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">linux基础</span>
+                        <a href="/tags/%E6%97%A5%E5%BF%97/">
+                            <span class="chip bg-color">日志</span>
                         </a>
                         
                     </div>
@@ -579,37 +553,30 @@ l
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/c20c.html">
+                    <a href="/posts/c791.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/19.jpg" class="responsive-img" alt="C++实现智能指针shared_ptr">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/18.jpg" class="responsive-img" alt="链式前向星">
                             
-                            <span class="card-title">C++实现智能指针shared_ptr</span>
+                            <span class="card-title">链式前向星</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                自己写的，有错请指出，谢谢
-#include &lt;iostream>
-#include &lt;memory>
-
-
-using std::cout;
-using std::endl;
-
-
-namespace master{
-
-
-temp
+                                实现
+//链式前向星
+//定义全局初始化为0
+int cnt_edge, head[MAX_N], next[MAX_M], to[MAX_M], w[MAX_M];
+// 加边 
+inline void add_edge(int a, i
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-02
                             </span>
                             <span class="publish-author">
                                 
@@ -623,8 +590,12 @@ temp
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
-                            <span class="chip bg-color">C++基础</span>
+                        <a href="/tags/%E5%9B%BE%E8%AE%BA/">
+                            <span class="chip bg-color">图论</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                            <span class="chip bg-color">基础数据结构</span>
                         </a>
                         
                     </div>
@@ -636,28 +607,25 @@ temp
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/d9e8.html">
+                    <a href="/posts/1b16.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/6.jpg" class="responsive-img" alt="阻塞与非阻塞">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/19.jpg" class="responsive-img" alt="力扣167、两数之和II-输入有序数组">
                             
-                            <span class="card-title">阻塞与非阻塞</span>
+                            <span class="card-title">力扣167、两数之和II-输入有序数组</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                阻塞
-当进程调用一个阻塞的系统函数时，该进程被置于睡眠状态。这是内核调度其他进程运行，直到该进程等待的事件发生了（比如网络上接收到数据包，或者调用sleep指定的睡眠时间到了）它才有可能继续运行。
-
-
+                                题目给你一个下标从 1 开始的整数数组&nbsp;numbers ，该数组已按 非递减顺序排列&nbsp; ，请你从数组中找出满足相加之和等于目标数&nbsp;target 的两个数。如果设这两个数分别是 numbers[index1] 和
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-02
                             </span>
                             <span class="publish-author">
                                 
@@ -671,8 +639,71 @@ temp
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/">
-                            <span class="chip bg-color">系统编程</span>
+                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
+                            <span class="chip bg-color">力扣题解</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/">
+                            <span class="chip bg-color">二分查找</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/">
+                            <span class="chip bg-color">双指针</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/df39.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/1.jpg" class="responsive-img" alt="力扣540、有序数组中的单一元素">
+                            
+                            <span class="card-title">力扣540、有序数组中的单一元素</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                题目给你一个仅由整数组成的有序数组，其中每个元素都会出现两次，唯有一个数只会出现一次。
+请你找出并返回只出现一次的那个数。
+你设计的解决方案必须满足 O(log n) 时间复杂度和 O(1) 空间复杂度。
+&nbsp;
+示例 1:
+
+输入:
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
+                            <span class="chip bg-color">力扣题解</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/">
+                            <span class="chip bg-color">二分查找</span>
                         </a>
                         
                     </div>
@@ -698,7 +729,7 @@ temp
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">10 / 41</div>
+            <div class="center-align b-text-gray">10 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -722,7 +753,7 @@ temp
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -731,7 +762,7 @@ temp
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             

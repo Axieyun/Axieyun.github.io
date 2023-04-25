@@ -31,9 +31,9 @@
 	
     
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="邪云" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -377,49 +377,34 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/2132.html">
+                    <a href="/posts/e098.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/6.jpg" class="responsive-img" alt="单调队列">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="C++之三五法则">
                             
-                            <span class="card-title">单调队列</span>
+                            <span class="card-title">C++之三五法则</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                deque
+                                
+需要析构函数的类也需要拷贝构造函数和拷贝赋值函数。
 
+需要拷贝操作的类也需要赋值操作，反之亦然。
 
-函数
-作用
+析构函数不能是删除的。
 
+如果一个类有删除的或不可访问的析构函数，那么其默认和拷贝构造函数会被定义为删除的。
 
-
-front()
-返回第一个元素的引用
-
-
-back()
-返回最后一个元素的引用
-
-
-push_front(x)
-把元素x插入到双向队列的头部
-
-
-pop_front()
-弹出双向队列的第一个元素
-
-
-pus
+如果一个类有const或引
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-20
                             </span>
                             <span class="publish-author">
                                 
@@ -433,12 +418,8 @@ pus
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97/">
-                            <span class="chip bg-color">双端队列</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -450,34 +431,29 @@ pus
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/831c.html">
+                    <a href="/posts/2a0f.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/18.jpg" class="responsive-img" alt="单调栈">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/12.jpg" class="responsive-img" alt="封装总结">
                             
-                            <span class="card-title">单调栈</span>
+                            <span class="card-title">封装总结</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                理解
-栈中的某一类元素具有单调性，单调递减或递增
-
-用处
-维护元素单调性的一种数据结构
-
-#include &lt;algorithm>
-#include &lt;cstdio>
-#include &lt;cstring>
-#include
+                                继承往往被过度使用。在设计过程中，耦合关系要尽量弱。如果类与类之间关系可以有多种方式表达，就使用关系最弱的那种。而继承几乎是最强烈的关系。
+参考原则
+如果组合可行，就不用考虑继承
+如果私有继承🆗，不要使用public继承
+如果类之间可以使
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-20
                             </span>
                             <span class="publish-author">
                                 
@@ -491,8 +467,8 @@ pus
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                            <span class="chip bg-color">基础数据结构</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -504,29 +480,147 @@ pus
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/73d.html">
+                    <a href="/posts/adb5.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/5.jpg" class="responsive-img" alt="力扣题解84.柱状图中最大的矩形">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/6.jpg" class="responsive-img" alt="记录一个C++虚继承内存地址相关问题">
                             
-                            <span class="card-title">力扣题解84.柱状图中最大的矩形</span>
+                            <span class="card-title">记录一个C++虚继承内存地址相关问题</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                思路看题解动态规划版本class Solution {
+                                运行环境：64位win电脑
+贴出代码// 解决菱形继承问题
+
+
+#include &lt;iostream>
+
+using std::cout;
+using std::endl;
+
+class A {
 public:
-    int largestRectangleArea(vector& heights) {
-        int n = heights.size();
+    int a; 
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E9%97%AE%E9%A2%98/">
+                            <span class="chip bg-color">问题</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/3e83.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/23.jpg" class="responsive-img" alt="C++实现简单的分数类">
+                            
+                            <span class="card-title">C++实现简单的分数类</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                #include 
+#include 
+
+
+using std::cout;
+using std::endl;
+
+
+class Fraction{
+private:
+    int _molecule; //分子
+    int _deno
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Axieyun
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/23c6.html">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/11.jpg" class="responsive-img" alt="C++实现简单的string">
+                            
+                            <span class="card-title">C++实现简单的string</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                #include 
+#include 
+#include 
+
+#include 
+using namespace std;
+  
+class MyString {
+private:
     
+    size_t _length;  // 
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
                             </span>
                             <span class="publish-author">
                                 
@@ -540,12 +634,8 @@ public:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3/">
-                            <span class="chip bg-color">力扣题解</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
-                            <span class="chip bg-color">动态规划</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -557,35 +647,37 @@ public:
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/212f.html">
+                    <a href="/posts/aade.html">
                         <div class="card-image">
                             
                             
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/23.jpg" class="responsive-img" alt="linux之命令格式">
+                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/20.jpg" class="responsive-img" alt="C++多态与重载">
                             
-                            <span class="card-title">linux之命令格式</span>
+                            <span class="card-title">C++多态与重载</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                命令格式表达式
-命令 [选项][选项参数] ... [参数] ...
+                                重载语法 operator () {
+// 函数体
+}
 
+不能重载的运算符
+? : 条件运算符
+.(成员访问运算符)
+*(成员指针访问运算符)
+::(域运算符)
+sizeof(sizeof是运算符，不是函数)
 
-…：表示还有其他选项或者选项参数或者参数
-
-
-安照英语语系语法
-主谓宾 定状补，命令省略主语
-谓语动词也就是 [命令] 主体
-[选项] ：命令执行的方式，属于定状补成
+多态
+多态按字面的意思就是多
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-16
                             </span>
                             <span class="publish-author">
                                 
@@ -599,107 +691,8 @@ public:
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/linux/">
-                            <span class="chip bg-color">linux</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/ddd8.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/17.jpg" class="responsive-img" alt="linux之命令行前缀">
-                            
-                            <span class="card-title">linux之命令行前缀</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                格式root@hostname:~#
-用户名: root，超级用户
-
-username@hostname:~$
-用户名：username，普通用户
-
-其它
-@：分隔符，分割用户名与主机名
-hostname：主机名
-表示用户当前的目录， 其中
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/linux/">
-                            <span class="chip bg-color">linux</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/2eaf.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/Axieyun/cdn@1.0/medias/featureimages/5.jpg" class="responsive-img" alt="ACM学习路线">
-                            
-                            <span class="card-title">ACM学习路线</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                动态规划基础动态规划入门递推矩阵二分快速幂最大字段和最长递增子序列最长公共子序列最小编辑距离背包问题01背包完全背包多重背包分组背包依赖背包记忆化搜索区间DP数位DP头插DP状压DP骨牌摆放TSP问题双边TSP组合计算四边形不等式斜率DPR
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Axieyun
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E8%AE%A1%E5%88%92/">
-                            <span class="chip bg-color">计划</span>
+                        <a href="/tags/C-%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">C++基础</span>
                         </a>
                         
                     </div>
@@ -725,7 +718,7 @@ hostname：主机名
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">20 / 41</div>
+            <div class="center-align b-text-gray">20 / 48</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -749,7 +742,7 @@ hostname：主机名
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021-2022</span>
+                <span id="year">2021-2023</span>
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">Axieyun</a>
@@ -758,7 +751,7 @@ hostname：主机名
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">132.9k</span>
+                        class="white-color">162k</span>
             
             
             
